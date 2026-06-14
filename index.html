@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="fr" data-season="winter">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Le Grand Dou : votre appartement a Meribel-Mottaret</title>
+<meta name="description" content="Le Grand Dou, appartement 4 a 6 personnes skis aux pieds a Meribel-Mottaret, coeur des 3 Vallees. Guide complet du sejour : logement, station, activites, transports.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,600;0,700;1,300&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Le Grand <em>Dou</em></a>
+    <div class="nav-links">
+      <a href="index.html" data-i18n="nav.home">Accueil</a>
+      <a href="logement.html" data-i18n="nav.flat">Le logement</a>
+      <a href="station.html" data-i18n="nav.resort">La station</a>
+      <a href="activites.html" data-i18n="nav.activities">Activites</a>
+      <a href="commerces.html" data-i18n="nav.shops">Commerces</a>
+      <a href="transports.html" data-i18n="nav.transport">Transports</a>
+      <a href="infos-pratiques.html" data-i18n="nav.info">Infos pratiques</a>
+    </div>
+    <div class="nav-tools">
+      <div class="season-switch" role="group" aria-label="Saison">
+        <button type="button" data-season="winter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="2" x2="12" y2="22"/><line x1="3.5" y1="7" x2="20.5" y2="17"/><line x1="3.5" y1="17" x2="20.5" y2="7"/></svg><span data-i18n="season.winter">Hiver</span></button>
+        <button type="button" data-season="summer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><line x1="12" y1="1.5" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.5" y2="12"/></svg><span data-i18n="season.summer">Ete</span></button>
+      </div>
+      <button class="lang-switch" type="button" aria-label="Switch language">EN</button>
+    </div>
+    <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-fallback"></div>
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-content">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Meribel-Mottaret, 1750 m, coeur des 3 Vallees</span>
+    <h1>Le Grand <span class="thin">Dou</span></h1>
+    <p class="hero-sub" data-i18n-season="hero.sub">Votre appartement ski aux pieds, a 50 m du front de neige du plus grand domaine skiable du monde.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="logement.html"><span data-i18n="hero.cta1">Decouvrir le logement</span><span data-icon="arrow"></span></a>
+      <a class="btn btn-ghost" href="transports.html"><span data-i18n="hero.cta2">Preparer son arrivee</span></a>
+    </div>
+  </div>
+  <div class="hero-hint" data-i18n="hero.hint">Glissez pour faire tourner le chalet</div>
+</header>
+
+<section class="section tight">
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat"><b>1750</b><span data-i18n="home.stats.alt">metres d'altitude</span></div>
+      <div class="stat"><b>600</b><span data-i18n="home.stats.km">km de pistes aux 3 Vallees</span></div>
+      <div class="stat"><b>50</b><span data-i18n="home.stats.dist">metres des pistes</span></div>
+      <div class="stat"><b>4-6</b><span data-i18n="home.stats.cap">voyageurs</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split reveal">
+      <div>
+        <span class="eyebrow">Le Grand Dou</span>
+        <h2 class="section-title" data-i18n="home.intro.title">Bienvenue chez vous, la-haut</h2>
+        <p class="section-sub" data-i18n="home.intro.p1" style="margin-bottom:14px"></p>
+        <p class="section-sub" data-i18n="home.intro.p2"></p>
+      </div>
+      <div class="visual">
+        <img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=1100&q=80" alt="Pistes de Meribel-Mottaret" data-fallback loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--bg-2)">
+  <div class="container">
+    <span class="eyebrow">Guide</span>
+    <h2 class="section-title" data-i18n="home.cards.title">Tout pour votre sejour</h2>
+    <div class="grid-3 mt">
+      <a class="card reveal" href="logement.html">
+        <div class="card-icon" data-icon="home"></div>
+        <h3 data-i18n="home.card.flat.t">Le logement</h3>
+        <p data-i18n="home.card.flat.d"></p>
+        <div class="card-go" data-i18n="home.card.go">Voir la page</div>
+      </a>
+      <a class="card reveal" href="station.html">
+        <div class="card-icon" data-icon="mountain"></div>
+        <h3 data-i18n="home.card.resort.t">La station</h3>
+        <p data-i18n="home.card.resort.d"></p>
+        <div class="card-go" data-i18n="home.card.go">Voir la page</div>
+      </a>
+      <a class="card reveal" href="activites.html">
+        <div class="card-icon" data-icon="ski"></div>
+        <h3 data-i18n="home.card.act.t">Activites</h3>
+        <p data-i18n="home.card.act.d"></p>
+        <div class="card-go" data-i18n="home.card.go">Voir la page</div>
+      </a>
+      <a class="card reveal" href="commerces.html">
+        <div class="card-icon" data-icon="shop"></div>
+        <h3 data-i18n="home.card.shop.t">Commerces</h3>
+        <p data-i18n="home.card.shop.d"></p>
+        <div class="card-go" data-i18n="home.card.go">Voir la page</div>
+      </a>
+      <a class="card reveal" href="transports.html">
+        <div class="card-icon" data-icon="bus"></div>
+        <h3 data-i18n="home.card.tr.t">Transports</h3>
+        <p data-i18n="home.card.tr.d"></p>
+        <div class="card-go" data-i18n="home.card.go">Voir la page</div>
+      </a>
+      <a class="card reveal" href="infos-pratiques.html">
+        <div class="card-icon" data-icon="info"></div>
+        <h3 data-i18n="home.card.info.t">Infos pratiques</h3>
+        <p data-i18n="home.card.info.d"></p>
+        <div class="card-go" data-i18n="home.card.go">Voir la page</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split rev reveal">
+      <div class="visual">
+        <img src="https://images.unsplash.com/photo-1517495306984-f84210f9daa8?auto=format&fit=crop&w=1100&q=80" alt="Village alpin sous la neige" data-fallback loading="lazy">
+      </div>
+      <div>
+        <span class="eyebrow" data-i18n-season="season">Hiver</span>
+        <h2 class="section-title" data-i18n-season="home.season.title">En ce moment : l'hiver au Mottaret</h2>
+        <p class="section-sub" data-i18n-season="home.season.p"></p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="activites.html"><span data-i18n="home.season.cta">Voir les activites de saison</span><span data-icon="arrow"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--bg-2)">
+  <div class="container">
+    <span class="eyebrow">Panoramas</span>
+    <h2 class="section-title" data-i18n="resort.gallery.t">La station en images</h2>
+    <div class="photo-grid mt reveal">
+      <div class="ph w2 h2">
+        <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&w=1400&q=80" alt="Randonneur face aux sommets" data-fallback loading="lazy">
+      </div>
+      <div class="ph">
+        <img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766?auto=format&fit=crop&w=800&q=80" alt="Ski dans la poudreuse" data-fallback loading="lazy">
+      </div>
+      <div class="ph">
+        <img src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?auto=format&fit=crop&w=800&q=80" alt="Alpages en ete" data-fallback loading="lazy">
+      </div>
+      <div class="ph">
+        <img src="https://images.unsplash.com/photo-1418985991508-e47386d96a71?auto=format&fit=crop&w=800&q=80" alt="Foret enneigee" data-fallback loading="lazy">
+      </div>
+      <div class="ph">
+        <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=800&q=80" alt="Lac de montagne" data-fallback loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">Le Grand <em>Dou</em></a>
+        <p data-i18n="footer.tag"></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer.links">Le site</h4>
+        <ul>
+          <li><a href="logement.html" data-i18n="nav.flat">Le logement</a></li>
+          <li><a href="station.html" data-i18n="nav.resort">La station</a></li>
+          <li><a href="activites.html" data-i18n="nav.activities">Activites</a></li>
+          <li><a href="commerces.html" data-i18n="nav.shops">Commerces</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer.practical">Pratique</h4>
+        <ul>
+          <li><a href="transports.html" data-i18n="nav.transport">Transports</a></li>
+          <li><a href="infos-pratiques.html" data-i18n="nav.info">Infos pratiques</a></li>
+          <li><a href="https://www.meribel.net" target="_blank" rel="noopener">meribel.net</a></li>
+          <li><a href="https://www.les3vallees.com" target="_blank" rel="noopener">les3vallees.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note" data-i18n="footer.note"></div>
+  </div>
+</footer>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+<script type="importmap">
+{ "imports": { "three": "https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.module.min.js" } }
+</script>
+<script type="module">
+/* ============================================================
+   Scene 3D du hero (Three.js, zero asset externe).
+   Code inline pour fonctionner aussi en ouverture locale
+   (double-clic sur index.html) : un module externe serait
+   bloque par Chrome en file://.
+   ============================================================ */
+import * as THREE from "three";
+
+const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const canvas = document.getElementById("hero-canvas");
+
+function canvasTexture(w, h, draw) {
+  const c = document.createElement("canvas");
+  c.width = w; c.height = h;
+  draw(c.getContext("2d"), w, h);
+  const t = new THREE.CanvasTexture(c);
+  t.anisotropy = 8;
+  return t;
+}
+
+function woodTexture(base, dark) {
+  return canvasTexture(512, 512, (g, w, h) => {
+    g.fillStyle = base; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 150; i++) {
+      const y = Math.random() * h;
+      g.fillStyle = dark;
+      g.globalAlpha = 0.05 + Math.random() * 0.16;
+      g.fillRect(0, y, w, 1 + Math.random() * 4);
+    }
+    g.globalAlpha = 1;
+    g.strokeStyle = "rgba(0,0,0,0.4)";
+    for (let y = 0; y < h; y += 64) {
+      g.beginPath(); g.moveTo(0, y); g.lineTo(w, y); g.stroke();
+    }
+    for (let i = 0; i < 5000; i++) {
+      g.fillStyle = Math.random() > 0.5 ? "rgba(0,0,0,0.08)" : "rgba(255,255,255,0.05)";
+      g.fillRect(Math.random() * w, Math.random() * h, 1, 1);
+    }
+  });
+}
+
+function stoneTexture() {
+  return canvasTexture(512, 256, (g, w, h) => {
+    g.fillStyle = "#6e6a63"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 60; i++) {
+      const x = Math.random() * w, y = Math.random() * h;
+      const rw = 30 + Math.random() * 70, rh = 18 + Math.random() * 30;
+      g.fillStyle = `rgba(${90 + Math.random() * 60 | 0},${85 + Math.random() * 55 | 0},${80 + Math.random() * 50 | 0},0.85)`;
+      g.beginPath();
+      if (g.roundRect) g.roundRect(x, y, rw, rh, 8); else g.rect(x, y, rw, rh);
+      g.fill();
+      g.strokeStyle = "rgba(20,18,16,0.55)"; g.stroke();
+    }
+    for (let i = 0; i < 4000; i++) {
+      g.fillStyle = Math.random() > 0.5 ? "rgba(0,0,0,0.1)" : "rgba(255,255,255,0.06)";
+      g.fillRect(Math.random() * w, Math.random() * h, 1, 1);
+    }
+  });
+}
+
+function snowGroundTexture() {
+  return canvasTexture(512, 512, (g, w, h) => {
+    g.fillStyle = "#dfe9f5"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 9000; i++) {
+      g.fillStyle = Math.random() > 0.55 ? "rgba(255,255,255,0.5)" : "rgba(150,175,210,0.18)";
+      g.fillRect(Math.random() * w, Math.random() * h, 1.4, 1.4);
+    }
+    for (let i = 0; i < 14; i++) {
+      const x = Math.random() * w, y = Math.random() * h, r = 40 + Math.random() * 90;
+      const rg = g.createRadialGradient(x, y, 0, x, y, r);
+      rg.addColorStop(0, "rgba(190,208,235,0.25)"); rg.addColorStop(1, "rgba(190,208,235,0)");
+      g.fillStyle = rg; g.beginPath(); g.arc(x, y, r, 0, 7); g.fill();
+    }
+  });
+}
+
+function grassTexture() {
+  return canvasTexture(512, 512, (g, w, h) => {
+    g.fillStyle = "#5d7d43"; g.fillRect(0, 0, w, h);
+    for (let i = 0; i < 11000; i++) {
+      const v = Math.random();
+      g.fillStyle = v > 0.66 ? "rgba(120,156,84,0.5)" : v > 0.33 ? "rgba(70,100,52,0.45)" : "rgba(150,176,104,0.3)";
+      g.fillRect(Math.random() * w, Math.random() * h, 1.6, 2.4);
+    }
+    const cols = ["#e8e3d0", "#d9a23c", "#b86fae", "#cf5f4e"];
+    for (let i = 0; i < 240; i++) {
+      g.fillStyle = cols[Math.random() * cols.length | 0];
+      const x = Math.random() * w, y = Math.random() * h;
+      g.beginPath(); g.arc(x, y, 1.4 + Math.random() * 1.3, 0, 7); g.fill();
+    }
+  });
+}
+
+function windowTexture() {
+  return canvasTexture(256, 256, (g, w, h) => {
+    const grad = g.createLinearGradient(0, 0, 0, h);
+    grad.addColorStop(0, "#ffdf9e"); grad.addColorStop(1, "#f5a93f");
+    g.fillStyle = grad; g.fillRect(0, 0, w, h);
+    g.fillStyle = "rgba(120,60,15,0.35)";
+    g.fillRect(w * 0.55, h * 0.45, w * 0.3, h * 0.18);
+    g.fillStyle = "#3a2410";
+    g.fillRect(w / 2 - 5, 0, 10, h);
+    g.fillRect(0, h / 2 - 5, w, 10);
+    g.strokeStyle = "#3a2410"; g.lineWidth = 14; g.strokeRect(0, 0, w, h);
+    const v = g.createRadialGradient(w / 2, h / 2, w * 0.2, w / 2, h / 2, w * 0.75);
+    v.addColorStop(0, "rgba(0,0,0,0)"); v.addColorStop(1, "rgba(0,0,0,0.25)");
+    g.fillStyle = v; g.fillRect(0, 0, w, h);
+  });
+}
+
+function glowTexture(r, gg, b) {
+  return canvasTexture(128, 128, (g, w, h) => {
+    const rg = g.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, w / 2);
+    rg.addColorStop(0, `rgba(${r},${gg},${b},0.9)`);
+    rg.addColorStop(0.35, `rgba(${r},${gg},${b},0.32)`);
+    rg.addColorStop(1, `rgba(${r},${gg},${b},0)`);
+    g.fillStyle = rg; g.fillRect(0, 0, w, h);
+  });
+}
+
+function buildEnvScene(winter) {
+  const env = new THREE.Scene();
+  env.background = new THREE.Color(winter ? 0x05080f : 0x101418);
+  const softbox = (w, h, color, intensity, pos) => {
+    const m = new THREE.Mesh(
+      new THREE.PlaneGeometry(w, h),
+      new THREE.MeshBasicMaterial({ color, side: THREE.DoubleSide })
+    );
+    m.material.color.multiplyScalar(intensity);
+    m.position.copy(pos); m.lookAt(0, 0, 0); env.add(m);
+  };
+  if (winter) {
+    softbox(14, 5, new THREE.Color(0.75, 0.85, 1.0), 4.5, new THREE.Vector3(0, 9, 0));
+    softbox(4, 10, new THREE.Color(0.45, 0.65, 1.0), 3.2, new THREE.Vector3(-10, 3, -3));
+    softbox(4, 10, new THREE.Color(1.0, 0.72, 0.4), 2.6, new THREE.Vector3(10, 2, 4));
+  } else {
+    softbox(14, 5, new THREE.Color(1.0, 0.97, 0.9), 5.0, new THREE.Vector3(0, 9, 0));
+    softbox(4, 10, new THREE.Color(1.0, 0.78, 0.45), 3.6, new THREE.Vector3(10, 3, 2));
+    softbox(4, 10, new THREE.Color(0.55, 0.75, 1.0), 2.4, new THREE.Vector3(-10, 3, -3));
+  }
+  return env;
+}
+
+function init() {
+  const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.12;
+  renderer.shadowMap.enabled = true;
+  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+  const scene = new THREE.Scene();
+  const pmrem = new THREE.PMREMGenerator(renderer);
+  const envWinter = pmrem.fromScene(buildEnvScene(true), 0.07).texture;
+  const envSummer = pmrem.fromScene(buildEnvScene(false), 0.07).texture;
+
+  const camera = new THREE.PerspectiveCamera(37, 1, 0.1, 90);
+
+  const groundGeo = new THREE.PlaneGeometry(46, 46, 72, 72);
+  {
+    const pos = groundGeo.attributes.position;
+    for (let i = 0; i < pos.count; i++) {
+      const x = pos.getX(i), y = pos.getY(i);
+      const d = Math.sqrt(x * x + y * y);
+      const amp = d < 4.5 ? 0 : Math.min((d - 4.5) * 0.10, 0.9);
+      pos.setZ(i, (Math.sin(x * 0.7) * Math.cos(y * 0.55) + Math.sin(x * 1.7 + y * 1.3) * 0.5) * amp * 0.45 + (Math.random() * 0.04 * amp));
+    }
+    groundGeo.computeVertexNormals();
+  }
+  const snowTex = snowGroundTexture(); snowTex.wrapS = snowTex.wrapT = THREE.RepeatWrapping; snowTex.repeat.set(5, 5);
+  const grassTex = grassTexture(); grassTex.wrapS = grassTex.wrapT = THREE.RepeatWrapping; grassTex.repeat.set(5, 5);
+  const snowMat = new THREE.MeshPhysicalMaterial({ map: snowTex, roughness: 0.82, metalness: 0, sheen: 0.6, sheenColor: 0xcfe2ff, envMapIntensity: 0.5 });
+  const grassMat = new THREE.MeshPhysicalMaterial({ map: grassTex, roughness: 0.95, metalness: 0, envMapIntensity: 0.35 });
+  const ground = new THREE.Mesh(groundGeo, snowMat);
+  ground.rotation.x = -Math.PI / 2;
+  ground.receiveShadow = true;
+  scene.add(ground);
+
+  const chalet = new THREE.Group();
+  const woodTex = woodTexture("#6b4a2e", "#3d2817");
+  const woodMat = new THREE.MeshPhysicalMaterial({ map: woodTex, roughness: 0.72, metalness: 0.02, clearcoat: 0.12, clearcoatRoughness: 0.6, envMapIntensity: 0.7 });
+  const darkWoodMat = new THREE.MeshPhysicalMaterial({ map: woodTexture("#4a3018", "#2a1a0c"), roughness: 0.8, metalness: 0.02, envMapIntensity: 0.55 });
+  const stoneMat = new THREE.MeshPhysicalMaterial({ map: stoneTexture(), roughness: 0.9, metalness: 0, envMapIntensity: 0.5 });
+
+  const base = new THREE.Mesh(new THREE.BoxGeometry(3.6, 0.9, 2.8), stoneMat);
+  base.position.y = 0.45; base.castShadow = base.receiveShadow = true;
+  chalet.add(base);
+
+  const body = new THREE.Mesh(new THREE.BoxGeometry(3.4, 1.15, 2.6), woodMat);
+  body.position.y = 0.9 + 0.575; body.castShadow = body.receiveShadow = true;
+  chalet.add(body);
+
+  const gableShape = new THREE.Shape();
+  gableShape.moveTo(-1.7, 0); gableShape.lineTo(1.7, 0); gableShape.lineTo(0, 1.05); gableShape.closePath();
+  const gableGeo = new THREE.ExtrudeGeometry(gableShape, { depth: 2.6, bevelEnabled: false });
+  const gable = new THREE.Mesh(gableGeo, woodMat);
+  gable.position.set(0, 2.05, -1.3); gable.castShadow = true;
+  chalet.add(gable);
+
+  const roofMat = new THREE.MeshPhysicalMaterial({ map: woodTexture("#3a2a1c", "#221610"), roughness: 0.85, metalness: 0.02, envMapIntensity: 0.5 });
+  const slopeLen = Math.sqrt(1.7 * 1.7 + 1.05 * 1.05) + 0.45;
+  const ang = Math.atan2(1.05, 1.7);
+  function roofPane(side) {
+    const pane = new THREE.Mesh(new THREE.BoxGeometry(slopeLen, 0.1, 3.3), roofMat);
+    pane.position.set(side * 0.86, 2.05 + 0.56, 0);
+    pane.rotation.z = -side * ang;
+    pane.castShadow = true;
+    return pane;
+  }
+  const roofL = roofPane(-1), roofR = roofPane(1);
+  chalet.add(roofL, roofR);
+
+  const snowCapMat = new THREE.MeshPhysicalMaterial({ color: 0xe8f0fb, roughness: 0.75, metalness: 0, sheen: 0.7, sheenColor: 0xdce9ff });
+  function snowCap(side) {
+    const cap = new THREE.Mesh(new THREE.BoxGeometry(slopeLen * 0.98, 0.09, 3.26), snowCapMat);
+    cap.position.set(side * 0.86, 2.05 + 0.56, 0);
+    cap.rotation.z = -side * ang;
+    cap.translateY(0.095);
+    return cap;
+  }
+  const snowCaps = new THREE.Group();
+  snowCaps.add(snowCap(-1), snowCap(1));
+  const ridge = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.07, 3.3, 8), snowCapMat);
+  ridge.rotation.x = Math.PI / 2; ridge.position.set(0, 2.05 + 1.13, 0);
+  snowCaps.add(ridge);
+  chalet.add(snowCaps);
+
+  const chimney = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.95, 0.34), stoneMat);
+  chimney.position.set(0.85, 2.05 + 1.0, -0.55); chimney.castShadow = true;
+  chalet.add(chimney);
+
+  const balcony = new THREE.Group();
+  const bFloor = new THREE.Mesh(new THREE.BoxGeometry(3.4, 0.08, 0.6), darkWoodMat);
+  bFloor.position.set(0, 0.94, 1.6); bFloor.castShadow = true;
+  balcony.add(bFloor);
+  const railTop = new THREE.Mesh(new THREE.BoxGeometry(3.4, 0.06, 0.06), darkWoodMat);
+  railTop.position.set(0, 1.46, 1.87);
+  balcony.add(railTop);
+  for (let i = 0; i <= 16; i++) {
+    const bar = new THREE.Mesh(new THREE.CylinderGeometry(0.018, 0.018, 0.46, 6), darkWoodMat);
+    bar.position.set(-1.65 + i * (3.3 / 16), 1.21, 1.87);
+    balcony.add(bar);
+  }
+  chalet.add(balcony);
+
+  const glowWarm = glowTexture(255, 176, 80);
+  const glows = [];
+  const winTex = windowTexture();
+  const winMat = new THREE.MeshPhysicalMaterial({
+    color: 0x000000, roughness: 0.08, clearcoat: 1,
+    emissive: 0xffffff, emissiveMap: winTex, emissiveIntensity: 1.5
+  });
+  const frameMat = new THREE.MeshPhysicalMaterial({ color: 0x2a1c0e, roughness: 0.6 });
+  const windows = [];
+  function addWindow(wd, ht, x, y, z, ry) {
+    const f = new THREE.Mesh(new THREE.BoxGeometry(wd + 0.1, ht + 0.1, 0.05), frameMat);
+    f.position.set(x, y, z); f.rotation.y = ry || 0;
+    const m = new THREE.Mesh(new THREE.PlaneGeometry(wd, ht), winMat);
+    m.position.set(x, y, z); m.rotation.y = ry || 0;
+    m.translateZ(0.032);
+    chalet.add(f, m);
+    windows.push(m);
+    const glow = new THREE.Sprite(new THREE.SpriteMaterial({
+      map: glowWarm, color: 0xffb050, transparent: true, opacity: 0.32,
+      blending: THREE.AdditiveBlending, depthWrite: false
+    }));
+    glow.scale.setScalar(1.15);
+    glow.position.copy(m.position); glow.translateZ(0.15);
+    chalet.add(glow);
+    glows.push(glow);
+  }
+  addWindow(0.62, 0.5, -0.95, 1.55, 1.305);
+  addWindow(0.62, 0.5, 0.95, 1.55, 1.305);
+  addWindow(0.5, 0.45, 0, 2.35, 1.305, 0);
+  addWindow(0.55, 0.45, -1.705, 1.5, -0.5, -Math.PI / 2);
+  addWindow(0.55, 0.45, 1.705, 1.5, 0.4, Math.PI / 2);
+
+  const door = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.85, 0.06), darkWoodMat);
+  door.position.set(0, 0.9 + 0.425 + 0.02, 1.325);
+  chalet.add(door);
+  const lampGlow = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: glowWarm, color: 0xffc070, transparent: true, opacity: 0.5,
+    blending: THREE.AdditiveBlending, depthWrite: false
+  }));
+  lampGlow.scale.setScalar(0.8);
+  lampGlow.position.set(0, 1.62, 1.42);
+  chalet.add(lampGlow);
+  glows.push(lampGlow);
+
+  chalet.rotation.y = -0.35;
+  scene.add(chalet);
+
+  const windowLight = new THREE.PointLight(0xffa050, 26, 9, 2);
+  windowLight.position.set(0.6, 1.7, 2.0);
+  scene.add(windowLight);
+
+  const pineGreenW = new THREE.MeshPhysicalMaterial({ color: 0x1e3a30, roughness: 0.9, envMapIntensity: 0.45 });
+  const pineGreenS = new THREE.MeshPhysicalMaterial({ color: 0x2f5a33, roughness: 0.9, envMapIntensity: 0.45 });
+  const pineSnowMat = new THREE.MeshPhysicalMaterial({ color: 0xe6eefb, roughness: 0.8 });
+  const trunkMat = new THREE.MeshPhysicalMaterial({ color: 0x4a3220, roughness: 0.9 });
+  const pines = [];
+  const pineSnowLayers = [];
+  function pine(x, z, s) {
+    const g = new THREE.Group();
+    const trunk = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.1, 0.5, 7), trunkMat);
+    trunk.position.y = 0.25; trunk.castShadow = true;
+    g.add(trunk);
+    for (let i = 0; i < 3; i++) {
+      const r = 0.62 - i * 0.16, hh = 0.78 - i * 0.1;
+      const cone = new THREE.Mesh(new THREE.ConeGeometry(r, hh, 9), pineGreenW);
+      cone.position.y = 0.55 + i * 0.42 + hh / 2 - 0.2;
+      cone.castShadow = true;
+      g.add(cone);
+      pines.push(cone);
+      const sn = new THREE.Mesh(new THREE.ConeGeometry(r * 0.94, hh * 0.32, 9), pineSnowMat);
+      sn.position.y = cone.position.y + hh * 0.36;
+      g.add(sn);
+      pineSnowLayers.push(sn);
+    }
+    g.position.set(x, 0, z);
+    g.scale.setScalar(s);
+    g.rotation.y = Math.random() * Math.PI;
+    scene.add(g);
+  }
+  pine(-3.4, -1.6, 1.25); pine(-4.3, 0.9, 0.95); pine(3.6, -2.0, 1.4);
+  pine(4.6, 0.6, 1.0); pine(-2.8, -3.4, 0.8); pine(2.6, 3.4, 0.7);
+  pine(5.4, -1.1, 0.85); pine(-5.2, -0.6, 0.7);
+
+  const smokeTex = glowTexture(210, 215, 225);
+  const smokePuffs = [];
+  const smokeGroup = new THREE.Group();
+  for (let i = 0; i < 7; i++) {
+    const p = new THREE.Sprite(new THREE.SpriteMaterial({
+      map: smokeTex, transparent: true, opacity: 0.16, depthWrite: false
+    }));
+    p.userData.t = i / 7;
+    smokeGroup.add(p); smokePuffs.push(p);
+  }
+  scene.add(smokeGroup);
+
+  const moon = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: glowTexture(190, 215, 255), color: 0xbcd4ff, transparent: true,
+    opacity: 0.85, blending: THREE.AdditiveBlending, depthWrite: false
+  }));
+  moon.scale.setScalar(7); moon.position.set(-9, 8.5, -14);
+  scene.add(moon);
+  const sun = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: glowTexture(255, 205, 120), color: 0xffd9a0, transparent: true,
+    opacity: 0.9, blending: THREE.AdditiveBlending, depthWrite: false
+  }));
+  sun.scale.setScalar(11); sun.position.set(10, 7.5, -15);
+  scene.add(sun);
+
+  const mtnMatW = new THREE.MeshBasicMaterial({ color: 0x141f33, fog: true });
+  const mtnMatS = new THREE.MeshBasicMaterial({ color: 0xa9c4d8, fog: true });
+  const mtns = [];
+  function mountain(x, z, w, h) {
+    const m = new THREE.Mesh(new THREE.ConeGeometry(w, h, 4), mtnMatW);
+    m.position.set(x, h / 2 - 0.4, z);
+    m.rotation.y = Math.random();
+    scene.add(m); mtns.push(m);
+  }
+  mountain(-12, -18, 9, 8); mountain(-2, -21, 11, 10); mountain(9, -19, 8, 7);
+  mountain(16, -16, 7, 5.5); mountain(-18, -14, 7, 6);
+
+  function makeParticles(count, size, color, opacity) {
+    const geo = new THREE.BufferGeometry();
+    const arr = new Float32Array(count * 3);
+    for (let i = 0; i < count; i++) {
+      arr[i * 3] = (Math.random() - 0.5) * 26;
+      arr[i * 3 + 1] = Math.random() * 11;
+      arr[i * 3 + 2] = (Math.random() - 0.5) * 26;
+    }
+    geo.setAttribute("position", new THREE.BufferAttribute(arr, 3));
+    const mat = new THREE.PointsMaterial({
+      size, color, transparent: true, opacity,
+      blending: THREE.AdditiveBlending, depthWrite: false, sizeAttenuation: true
+    });
+    return new THREE.Points(geo, mat);
+  }
+  const snowFall = makeParticles(420, 0.055, 0xdfeaff, 0.85);
+  const pollen = makeParticles(130, 0.05, 0xffe9b0, 0.5);
+  scene.add(snowFall, pollen);
+
+  const key = new THREE.DirectionalLight(0xa8c4ff, 1.5);
+  key.position.set(-6, 9, -4);
+  key.castShadow = true;
+  key.shadow.mapSize.set(2048, 2048);
+  key.shadow.camera.left = -9; key.shadow.camera.right = 9;
+  key.shadow.camera.top = 9; key.shadow.camera.bottom = -9;
+  key.shadow.bias = -0.0008;
+  scene.add(key);
+  const hemi = new THREE.HemisphereLight(0x32507f, 0x0c121f, 0.7);
+  scene.add(hemi);
+  const rim = new THREE.DirectionalLight(0xffb070, 0.5);
+  rim.position.set(7, 3, 6);
+  scene.add(rim);
+
+  function setSeason(s) {
+    const winter = s === "winter";
+    scene.environment = winter ? envWinter : envSummer;
+    scene.background = new THREE.Color(winter ? 0x0a111f : 0xcfe5f4);
+    scene.fog = new THREE.FogExp2(winter ? 0x0a111f : 0xcfe5f4, winter ? 0.035 : 0.026);
+    ground.material = winter ? snowMat : grassMat;
+    snowCaps.visible = winter;
+    smokeGroup.visible = winter;
+    moon.visible = winter;
+    sun.visible = !winter;
+    snowFall.visible = winter;
+    pollen.visible = !winter;
+    pineSnowLayers.forEach(p => { p.visible = winter; });
+    pines.forEach(p => { p.material = winter ? pineGreenW : pineGreenS; });
+    mtns.forEach(m => { m.material = winter ? mtnMatW : mtnMatS; });
+    key.color.set(winter ? 0xa8c4ff : 0xffd9a0);
+    key.intensity = winter ? 1.5 : 3.2;
+    key.position.set(winter ? -6 : 7, 9, winter ? -4 : -3);
+    hemi.color.set(winter ? 0x32507f : 0x9fc8e8);
+    hemi.groundColor.set(winter ? 0x0c121f : 0x5d7d43);
+    hemi.intensity = winter ? 0.7 : 1.1;
+    rim.color.set(winter ? 0xffb070 : 0xfff2da);
+    rim.intensity = winter ? 0.5 : 0.8;
+    windowLight.intensity = winter ? 26 : 6;
+    winMat.emissiveIntensity = winter ? 1.5 : 0.45;
+    glows.forEach(g => { g.material.opacity = winter ? 0.34 : 0.08; });
+    renderer.toneMappingExposure = winter ? 1.12 : 1.05;
+  }
+  setSeason(document.documentElement.getAttribute("data-season") || "winter");
+  document.addEventListener("gd:season", e => setSeason(e.detail.season));
+
+  let theta = 0.65, extra = 0, targetExtra = 0, elev = 3.0, targetElev = 3.0;
+  let dragging = false, lastX = 0;
+  canvas.addEventListener("pointerdown", e => { dragging = true; lastX = e.clientX; });
+  window.addEventListener("pointermove", e => {
+    if (dragging) {
+      targetExtra += (e.clientX - lastX) * 0.006;
+      lastX = e.clientX;
+    } else {
+      const nx = e.clientX / window.innerWidth - 0.5;
+      const ny = e.clientY / window.innerHeight - 0.5;
+      targetExtra = targetExtra * 0.92 + nx * 0.22 * 0.08;
+      targetElev = 3.0 - ny * 0.7;
+    }
+  });
+  window.addEventListener("pointerup", () => { dragging = false; });
+
+  function resize() {
+    const w = canvas.clientWidth, h = canvas.clientHeight;
+    renderer.setSize(w, h, false);
+    camera.aspect = w / h;
+    camera.updateProjectionMatrix();
+  }
+  window.addEventListener("resize", resize);
+  resize();
+
+  let visible = true;
+  new IntersectionObserver(en => { visible = en[0].isIntersecting; }, { threshold: 0.02 }).observe(canvas);
+
+  const clock = new THREE.Clock();
+  function animate() {
+    requestAnimationFrame(animate);
+    if (!visible) return;
+    const dt = Math.min(clock.getDelta(), 0.05);
+    const tnow = clock.elapsedTime;
+    if (!REDUCED && !dragging) theta += dt * 0.07;
+    extra += (targetExtra - extra) * 0.05;
+    elev += (targetElev - elev) * 0.05;
+    const R = 11.2;
+    camera.position.set(Math.sin(theta + extra) * R, elev, Math.cos(theta + extra) * R);
+    camera.lookAt(-2.1, 1.45, 0);
+
+    if (snowFall.visible && !REDUCED) {
+      const p = snowFall.geometry.attributes.position;
+      for (let i = 0; i < p.count; i++) {
+        let y = p.getY(i) - dt * (0.55 + (i % 5) * 0.12);
+        let x = p.getX(i) + Math.sin(tnow * 0.7 + i) * dt * 0.18;
+        if (y < 0) { y = 11; x = (Math.random() - 0.5) * 26; }
+        p.setY(i, y); p.setX(i, x);
+      }
+      p.needsUpdate = true;
+    }
+    if (pollen.visible && !REDUCED) {
+      const p = pollen.geometry.attributes.position;
+      for (let i = 0; i < p.count; i++) {
+        p.setY(i, p.getY(i) + Math.sin(tnow * 0.6 + i * 1.7) * dt * 0.12);
+        p.setX(i, p.getX(i) + Math.cos(tnow * 0.4 + i) * dt * 0.1);
+      }
+      p.needsUpdate = true;
+    }
+    if (smokeGroup.visible && !REDUCED) {
+      smokePuffs.forEach(s => {
+        s.userData.t += dt * 0.12;
+        if (s.userData.t > 1) s.userData.t = 0;
+        const k = s.userData.t;
+        s.position.set(0.85 + Math.sin(k * 9) * 0.16 + k * 0.5, 3.55 + k * 2.4, -0.55);
+        s.scale.setScalar(0.35 + k * 1.5);
+        s.material.opacity = 0.2 * (1 - k);
+      });
+      smokeGroup.rotation.y = chalet.rotation.y;
+    }
+    if (!REDUCED) {
+      const breathe = 1 + Math.sin(tnow * 1.4) * 0.05;
+      const winterNow = snowFall.visible;
+      winMat.emissiveIntensity = (winterNow ? 1.5 : 0.45) * breathe;
+    }
+    renderer.render(scene, camera);
+  }
+  animate();
+}
+
+try {
+  if (canvas) init();
+} catch (err) {
+  if (canvas) canvas.style.display = "none";
+  const fb = document.querySelector(".hero-fallback");
+  if (fb) fb.style.display = "block";
+  console.warn("Scene 3D indisponible :", err);
+}
+</script>
+</body>
+</html>
