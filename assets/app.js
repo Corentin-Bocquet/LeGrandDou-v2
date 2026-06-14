@@ -187,6 +187,7 @@
     var list = D.shops.filter(function (s) { return shopFilter === "all" || s.cat === shopFilter; });
     host.innerHTML = list.map(function (s) {
       return '<article class="card act-card">' +
+        (s.img ? '<div class="act-img"><img src="' + s.img + '" alt="' + esc(tx(s.t)) + '" loading="lazy" onerror="this.parentNode.style.display=\'none\'"></div>' : "") +
         '<div class="act-head"><h3>' + esc(tx(s.t)) + '</h3><span class="walk-pill">' + ICONS.walk + s.walk + " " + esc(t("shops.card.walk")) + "</span></div>" +
         "<p>" + esc(tx(s.d)) + "</p>" +
         '<div class="act-meta"><div class="row">' + ICONS.clock + "<span><b>" + esc(t("shops.card.hours")) + " : </b>" + esc(tx(s.hours)) + "</span></div></div>" +
@@ -200,8 +201,9 @@
     var host = document.getElementById("modes-list");
     if (!host) return;
     host.innerHTML = D.transportModes.map(function (m) {
-      return '<article class="card mode-card">' +
-        '<div class="mode-head"><div class="card-icon" style="margin-bottom:0">' + (ICONS[m.icon] || ICONS.pin) + "</div><h3>" + esc(tx(m.t)) + "</h3></div>" +
+      return '<article class="card act-card">' +
+        (m.img ? '<div class="act-img"><img src="' + m.img + '" alt="' + esc(tx(m.t)) + '" loading="lazy" onerror="this.parentNode.style.display=\'none\'"></div>' : "") +
+        '<div class="act-head"><div class="card-icon" style="margin-bottom:0">' + (ICONS[m.icon] || ICONS.pin) + "</div><h3>" + esc(tx(m.t)) + "</h3></div>" +
         "<p>" + esc(tx(m.d)) + "</p>" +
         '<div class="act-tip">' + esc(tx(m.tip)) + "</div>" +
         '<div class="act-links"><a href="' + m.link + '" target="_blank" rel="noopener">' + esc(tx(m.cta)) + "</a></div>" +
@@ -213,13 +215,17 @@
     var host = document.getElementById("emg-list");
     if (host) {
       host.innerHTML = D.emergency.map(function (e) {
-        return '<div class="emg"><b class="num">' + esc(e.num) + '</b><div class="t">' + esc(tx(e.t)) + "</div><p>" + esc(tx(e.d)) + "</p></div>";
+        return '<div class="emg">' +
+          (e.img ? '<div class="emg-img"><img src="' + e.img + '" alt="' + esc(tx(e.t)) + '" loading="lazy" onerror="this.parentNode.style.display=\'none\'"></div>' : "") +
+          '<b class="num">' + esc(e.num) + '</b><div class="t">' + esc(tx(e.t)) + "</div><p>" + esc(tx(e.d)) + "</p></div>";
       }).join("");
     }
     var hh = document.getElementById("health-list");
     if (hh) {
       hh.innerHTML = D.health.map(function (h) {
-        return '<div class="card act-card"><div class="card-icon">' + ICONS.health + "</div><h3>" + esc(tx(h.t)) + "</h3><p>" + esc(tx(h.d)) + "</p></div>";
+        return '<div class="card act-card">' +
+          (h.img ? '<div class="act-img"><img src="' + h.img + '" alt="' + esc(tx(h.t)) + '" loading="lazy" onerror="this.parentNode.style.display=\'none\'"></div>' : "") +
+          '<div class="card-icon">' + ICONS.health + "</div><h3>" + esc(tx(h.t)) + "</h3><p>" + esc(tx(h.d)) + "</p></div>";
       }).join("");
     }
     var rl = document.getElementById("rules-list");

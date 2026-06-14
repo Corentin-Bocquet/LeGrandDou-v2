@@ -502,6 +502,7 @@ window.GD_DATA = {
   shops: [
     {
       cat: "food", walk: 3,
+      img: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Sherpa Supermarche", en: "Sherpa Supermarket" },
       d: { fr: "Le supermarche principal du Mottaret : boucherie, fromages, pain artisanal, fruits et legumes, cave a vins, plats traiteur.", en: "Mottaret's main supermarket: butcher, cheese, artisan bread, fruit and veg, wine cellar, deli dishes." },
       hours: { fr: "En saison : 8h-13h et 15h-19h30, 7j/7", en: "In season: 8-13 and 15-19:30, daily" },
@@ -510,6 +511,7 @@ window.GD_DATA = {
     },
     {
       cat: "food", walk: 3,
+      img: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Carrefour Montagne", en: "Carrefour Montagne" },
       d: { fr: "Superette de depannage au centre du Mottaret, pratique pour le pain du matin et les oublis de derniere minute.", en: "Convenience store in Mottaret centre, handy for morning bread and last-minute items." },
       hours: { fr: "Tous les jours en saison", en: "Daily in season" },
@@ -518,6 +520,7 @@ window.GD_DATA = {
     },
     {
       cat: "rental", walk: 2,
+      img: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Intersport Mottaret", en: "Intersport Mottaret" },
       d: { fr: "Location de skis, snowboards, raquettes et casques. Atelier d'entretien et bootfitting.", en: "Ski, snowboard, snowshoe and helmet rental. Workshop and bootfitting." },
       hours: { fr: "8h30-19h en saison d'hiver", en: "8:30-19:00 in the winter season" },
@@ -526,6 +529,7 @@ window.GD_DATA = {
     },
     {
       cat: "rental", walk: 3,
+      img: "https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Sport 2000 Mottaret", en: "Sport 2000 Mottaret" },
       d: { fr: "L'autre grand loueur du centre : materiel recent, gamme enfant complete, location VTT l'ete.", en: "The other big rental shop in the centre: recent gear, full kids range, mountain bike hire in summer." },
       hours: { fr: "8h30-19h en saison", en: "8:30-19:00 in season" },
@@ -534,6 +538,7 @@ window.GD_DATA = {
     },
     {
       cat: "services", walk: 4,
+      img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Pharmacie du Mottaret", en: "Mottaret pharmacy" },
       d: { fr: "Pharmacie de la station : conseil montagne, creme solaire haute protection, petite traumatologie.", en: "The resort pharmacy: mountain advice, high protection sunscreen, minor injury care." },
       hours: { fr: "Lun-sam en saison, garde affichee en vitrine", en: "Mon-Sat in season, duty rota in the window" },
@@ -542,6 +547,7 @@ window.GD_DATA = {
     },
     {
       cat: "services", walk: 3,
+      img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Office de tourisme Mottaret", en: "Mottaret tourist office" },
       d: { fr: "Infos, horaires navettes, reservation d'activites, cartes de peche et plans de la station.", en: "Info, shuttle times, activity bookings, fishing permits and resort maps." },
       hours: { fr: "Tous les jours en saison", en: "Daily in season" },
@@ -550,6 +556,7 @@ window.GD_DATA = {
     },
     {
       cat: "resto", walk: 3,
+      img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Cote Brune", en: "Cote Brune" },
       d: { fr: "L'institution savoyarde du front de neige : fondues, pierrades et cotes de boeuf au feu de bois, midi et soir.", en: "The Savoyard institution on the snow front: fondues, hot stone grills and wood-fired beef, lunch and dinner." },
       hours: { fr: "9h30-21h en saison, ouvert l'ete", en: "9:30-21:00 in season, open in summer" },
@@ -558,6 +565,7 @@ window.GD_DATA = {
     },
     {
       cat: "resto", walk: 3,
+      img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Pizzeria du Mottaret", en: "Pizzeria du Mottaret" },
       d: { fr: "L'institution pizza du centre depuis des decennies : plus de 15 pizzas, service continu, pates et salades.", en: "The centre's pizza institution for decades: 15 plus pizzas, all-day service, pasta and salads." },
       hours: { fr: "12h-22h30 non-stop en hiver", en: "12:00-22:30 non-stop in winter" },
@@ -566,6 +574,7 @@ window.GD_DATA = {
     },
     {
       cat: "resto", walk: 2,
+      img: "https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Le front de neige", en: "The snow front" },
       d: { fr: "Bars et terrasses plein sud au pied des pistes : vin chaud au retour du ski, transats l'ete.", en: "South-facing bars and terraces at the foot of the slopes: mulled wine after skiing, deckchairs in summer." },
       hours: { fr: "Selon etablissements", en: "Varies by venue" },
@@ -574,6 +583,7 @@ window.GD_DATA = {
     },
     {
       cat: "services", walk: 3,
+      img: "https://images.unsplash.com/photo-1551498099-1e26d32e71e6?auto=format&fit=crop&w=900&q=80",
       t: { fr: "ESF Meribel-Mottaret", en: "ESF Meribel-Mottaret" },
       d: { fr: "Cours collectifs et prives, jardin d'enfants, ski de fond et sorties raquettes accompagnees.", en: "Group and private lessons, kids garden, cross-country and guided snowshoe outings." },
       hours: { fr: "Bureau au front de neige, 8h30-18h30", en: "Office on the snow front, 8:30-18:30" },
@@ -586,6 +596,7 @@ window.GD_DATA = {
   transportModes: [
     {
       icon: "train",
+      img: "https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=80",
       t: { fr: "En train", en: "By train" },
       d: { fr: "Gare de Moutiers-Salins-Brides-les-Bains a 18 km (TGV et Eurostar Snow directs depuis Paris en hiver). Puis bus S64 ou taxi jusqu'au Mottaret, environ 35 minutes de montee.", en: "Moutiers-Salins-Brides-les-Bains station 18 km away (direct TGV and Eurostar Snow from Paris in winter). Then S64 bus or taxi up to Mottaret, around a 35 minute climb." },
       cta: { fr: "Ouvrir SNCF Connect", en: "Open SNCF Connect" },
@@ -594,6 +605,7 @@ window.GD_DATA = {
     },
     {
       icon: "bus",
+      img: "https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=900&q=80",
       t: { fr: "En bus", en: "By bus" },
       d: { fr: "Ligne S64 Moutiers - Meribel - Mottaret toute l'annee, renforcee en saison. Depuis les aeroports, navettes Altibus et Ben's Bus directes vers Mottaret en hiver.", en: "S64 line Moutiers - Meribel - Mottaret all year, more frequent in season. From the airports, direct Altibus and Ben's Bus shuttles to Mottaret in winter." },
       cta: { fr: "Horaires et billets Altibus", en: "Altibus times and tickets" },
@@ -602,6 +614,7 @@ window.GD_DATA = {
     },
     {
       icon: "plane",
+      img: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=80",
       t: { fr: "En avion", en: "By plane" },
       d: { fr: "Chambery a 95 km (1h30), Geneve a 135 km (2h15) et Lyon Saint-Exupery a 185 km (2h15). Navettes partagees ou transferts prives jusqu'a la station.", en: "Chambery 95 km (1h30), Geneva 135 km (2h15) and Lyon Saint-Exupery 185 km (2h15). Shared shuttles or private transfers up to the resort." },
       cta: { fr: "Navettes Ben's Bus", en: "Ben's Bus shuttles" },
@@ -610,6 +623,7 @@ window.GD_DATA = {
     },
     {
       icon: "car",
+      img: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=900&q=80",
       t: { fr: "En voiture", en: "By car" },
       d: { fr: "Autoroute A43 jusqu'a Albertville puis voie rapide vers Moutiers et montee par la D90 (40 min). Equipements hiver obligatoires de novembre a mars (loi montagne).", en: "A43 motorway to Albertville then expressway to Moutiers and the D90 climb (40 min). Winter tyres or chains compulsory from November to March (French mountain law)." },
       cta: { fr: "Itineraire Google Maps", en: "Google Maps route" },
@@ -618,6 +632,7 @@ window.GD_DATA = {
     },
     {
       icon: "taxi",
+      img: "https://images.unsplash.com/photo-1517732306149-e8f829eb588a?auto=format&fit=crop&w=900&q=80",
       t: { fr: "Taxi et transfert prive", en: "Taxi and private transfer" },
       d: { fr: "Uber est quasi inexistant en station : privilegiez les taxis locaux et compagnies de transfert depuis Moutiers ou les aeroports. Comptez 60 a 80 euros depuis Moutiers.", en: "Uber is nearly nonexistent in the resort: use local taxis and transfer companies from Moutiers or the airports. Allow 60 to 80 euros from Moutiers." },
       cta: { fr: "Taxis et transferts (office de tourisme)", en: "Taxis and transfers (tourist office)" },
@@ -626,6 +641,7 @@ window.GD_DATA = {
     },
     {
       icon: "car",
+      img: "https://images.unsplash.com/photo-1468657988500-aca2be09f4c7?auto=format&fit=crop&w=900&q=80",
       t: { fr: "En covoiturage", en: "By carpool" },
       d: { fr: "BlaBlaCar dessert tres bien Moutiers depuis Lyon, Grenoble et Chambery, puis bus S64 pour finir la montee.", en: "BlaBlaCar serves Moutiers well from Lyon, Grenoble and Chambery, then the S64 bus for the final climb." },
       cta: { fr: "Chercher un trajet BlaBlaCar", en: "Search BlaBlaCar" },
@@ -636,16 +652,16 @@ window.GD_DATA = {
 
   /* ---------- Urgences et sante ---------- */
   emergency: [
-    { num: "112", t: { fr: "Urgences europeennes", en: "European emergencies" }, d: { fr: "Numero unique, fonctionne partout meme sans reseau de votre operateur", en: "Single number, works everywhere even without your own network" } },
-    { num: "15", t: { fr: "SAMU", en: "Medical emergency (SAMU)" }, d: { fr: "Urgences medicales", en: "Medical emergencies" } },
-    { num: "18", t: { fr: "Pompiers", en: "Fire brigade" }, d: { fr: "Incendie et secours", en: "Fire and rescue" } },
-    { num: "17", t: { fr: "Police / Gendarmerie", en: "Police" }, d: { fr: "Gendarmerie de Meribel en saison", en: "Meribel gendarmerie in season" } },
-    { num: "112", t: { fr: "Secours sur pistes", en: "Slope rescue" }, d: { fr: "Signalez le nom de la piste et le numero de balise la plus proche", en: "Give the slope name and the nearest marker number" } }
+    { num: "112", img: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=900&q=80", t: { fr: "Urgences europeennes", en: "European emergencies" }, d: { fr: "Numero unique, fonctionne partout meme sans reseau de votre operateur", en: "Single number, works everywhere even without your own network" } },
+    { num: "15", img: "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=900&q=80", t: { fr: "SAMU", en: "Medical emergency (SAMU)" }, d: { fr: "Urgences medicales", en: "Medical emergencies" } },
+    { num: "18", img: "https://images.unsplash.com/photo-1554534733-0b77d44eb35c?auto=format&fit=crop&w=900&q=80", t: { fr: "Pompiers", en: "Fire brigade" }, d: { fr: "Incendie et secours", en: "Fire and rescue" } },
+    { num: "17", img: "https://images.unsplash.com/photo-1453873531674-2151bcd01707?auto=format&fit=crop&w=900&q=80", t: { fr: "Police / Gendarmerie", en: "Police" }, d: { fr: "Gendarmerie de Meribel en saison", en: "Meribel gendarmerie in season" } },
+    { num: "112", img: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=900&q=80", t: { fr: "Secours sur pistes", en: "Slope rescue" }, d: { fr: "Signalez le nom de la piste et le numero de balise la plus proche", en: "Give the slope name and the nearest marker number" } }
   ],
   health: [
-    { t: { fr: "Cabinet medical du Mottaret", en: "Mottaret medical practice" }, d: { fr: "Medecins de montagne au centre station, radiologie de premier niveau, sans rendez-vous en saison.", en: "Mountain doctors in the resort centre, basic X-ray, walk-in during the season." } },
-    { t: { fr: "Pharmacie du Mottaret", en: "Mottaret pharmacy" }, d: { fr: "Au centre commercial, garde affichee en vitrine.", en: "In the shopping centre, duty rota in the window." } },
-    { t: { fr: "Hopital le plus proche", en: "Nearest hospital" }, d: { fr: "Centre hospitalier Albertville-Moutiers, site de Moutiers a 18 km, urgences a Albertville.", en: "Albertville-Moutiers hospital, Moutiers site 18 km away, A&E in Albertville." } }
+    { img: "https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&w=900&q=80", t: { fr: "Cabinet medical du Mottaret", en: "Mottaret medical practice" }, d: { fr: "Medecins de montagne au centre station, radiologie de premier niveau, sans rendez-vous en saison.", en: "Mountain doctors in the resort centre, basic X-ray, walk-in during the season." } },
+    { img: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=900&q=80", t: { fr: "Pharmacie du Mottaret", en: "Mottaret pharmacy" }, d: { fr: "Au centre commercial, garde affichee en vitrine.", en: "In the shopping centre, duty rota in the window." } },
+    { img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=900&q=80", t: { fr: "Hopital le plus proche", en: "Nearest hospital" }, d: { fr: "Centre hospitalier Albertville-Moutiers, site de Moutiers a 18 km, urgences a Albertville.", en: "Albertville-Moutiers hospital, Moutiers site 18 km away, A&E in Albertville." } }
   ],
   /* ---------- Images des activites (modifiables librement) ---------- */
   activityImages: [
